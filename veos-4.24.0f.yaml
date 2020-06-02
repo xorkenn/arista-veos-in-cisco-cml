@@ -1,0 +1,8 @@
+id: veos-4.24.0f
+node_definition_id: veos
+description: Arista veOS 4.24.0F
+label: Arista veOS 4.24.0F
+disk_image: veos-lab-4.24.0f.qcow2
+read_only: false
+disk_subfolder: veos-4.24.0f
+schema_version: 0.0.1
