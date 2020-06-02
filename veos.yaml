@@ -1,0 +1,89 @@
+id: veos
+general:
+  nature: router
+  read_only: false
+device:
+  interfaces:
+    has_loopback_zero: false
+    physical:
+      - Et1
+      - Et2
+      - Et3
+      - Et4
+      - Et5
+      - Et6
+      - Et7
+      - Et8
+      - Et9
+      - Et10
+      - Et11
+      - Et12
+      - Et13
+      - Et14
+      - Et15
+      - Et16
+      - Et17
+      - Et18
+      - Et19
+      - Et20
+      - Et21
+      - Et22
+      - Et23
+      - Et24
+      - Et25
+      - Et26
+      - Et27
+      - Et28
+      - Et29
+      - Et30
+      - Et31
+      - Et32
+      - Et33
+      - Et34
+      - Et35
+      - Et36
+      - Et37
+      - Et38
+      - Et39
+      - Et40
+      - Et41
+      - Et42
+      - Et43
+      - Et44
+      - Et45
+      - Et46
+      - Et47
+      - Et48
+      - Ma1
+    serial_ports: 1
+    default_count: 5
+ui:
+  visible: true
+  label_prefix: veos-
+  icon: router
+  label: Arista vEOS
+sim:
+  linux_native:
+    libvirt_domain_driver: kvm
+    driver: server
+    disk_driver: ide
+    ram: 1024
+    cpus: 1
+    nic_driver: virtio
+boot:
+  timeout: 5
+inherited:
+  image:
+    ram: true
+    cpus: true
+    data_volume: true
+    boot_disk_size: true
+  node:
+    ram: true
+    cpus: true
+    data_volume: true
+    boot_disk_size: true
+configuration:
+  generator:
+    driver: null
+schema_version: 0.0.1
